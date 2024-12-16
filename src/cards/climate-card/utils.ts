@@ -19,11 +19,11 @@ export const CLIMATE_HVAC_ACTION_COLORS: Record<HvacAction, string> = {
 };
 
 export const CLIMATE_HVAC_MODE_ICONS: Record<HvacMode, string> = {
-  auto: "mdi:calendar-sync",
+  auto: "mdi:fire",
   cool: "mdi:snowflake",
   dry: "mdi:water-percent",
   fan_only: "mdi:fan",
-  heat: "mdi:fire",
+  heat: "mdi:thermostat",
   heat_cool: "mdi:autorenew",
   off: "mdi:power",
 };
@@ -31,7 +31,7 @@ export const CLIMATE_HVAC_MODE_ICONS: Record<HvacMode, string> = {
 export const CLIMATE_HVAC_ACTION_ICONS: Record<HvacAction, string> = {
   cooling: "mdi:snowflake",
   drying: "mdi:water-percent",
-  heating: "mdi:fire",
+  heating: "mdi:thermostat",
   idle: "mdi:clock-outline",
   off: "mdi:power",
 };
